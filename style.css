@@ -1,0 +1,84 @@
+*{
+    box-sizing:border-box ;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(159, 182, 126);
+    color: white;
+    
+}
+header{
+ background-color: teal;
+
+}
+h1{
+    text-align: center;
+    color: orange;
+    padding: 20px;
+    font-size: 40px;
+    
+}
+.scoreboard{
+    border: 40px yellow;
+    text-align: center;
+    color: orangered;
+    width: 300px;
+    margin: 15px auto;
+    font-size: 30px;
+    border-radius: 5px;
+    padding: 15px 20px;
+    background-color:rgb(202, 236, 236);
+    position: relative;
+    height: 60px;
+    
+    
+}
+.player{
+    color: orange;
+    border-radius: 30%;
+    
+    width: 80px; 
+  
+}
+#user-label{
+   position: absolute;
+   top:13px;
+   left: 5px;
+   
+}
+#computer-label{
+    position: absolute;
+    top:13px;
+    right: 5px;
+    
+ }
+ .result{
+     text-align: center;
+     font-size: 40px;
+     color:green;
+ }
+ .options{
+     
+     text-align: center;
+     margin: 50px 0;
+ }
+ .option{
+    display: inline-block;
+    border: 4px solid white;
+    padding: 20px;
+    margin: 0 15px;
+    transition: all .35s ease ;
+
+ }
+ .option:hover{
+     cursor: pointer;
+     background-color: turquoise;
+ }
+ #instruction{
+     text-align: center;
+     font-weight: bold;
+     font-size: 30px;
+     color:rgb(155, 127, 4)
+ }
